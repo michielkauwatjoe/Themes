@@ -1,0 +1,236 @@
+/* 
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles in this file instead of style.css so it 
+is easier to update the theme. Simply copy an existing style 
+from style.css to this file, and modify it to your liking. */
+
+
+/* 
+GLOBAL STYLES
+----------------
+Add styles beneath this line that you want to be applied across your entire site */
+
+
+/* 
+DESKTOP STYLES
+-----------------
+Add styles inside the media query below that you only want to be applied to the desktop layout of your site */
+
+
+
+.images a img, .summary {
+	max-width: 500px;
+}
+
+#content, #header {
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 15px;
+}
+
+#content {
+	margin-bottom: 4em;
+}
+
+
+
+@media only screen and (min-width: 940px) {
+	article {
+		width: 800px;
+		left: 100px;
+		float: left;
+		display: block;
+		position: relative;
+	}
+
+}
+
+@media only screen and (max-width: 1010px) {
+	#sliderbox {
+		display: none;
+	}
+}
+
+	#logo {
+		margin-top: 1em;
+	}
+}
+
+#footericon, #footericon img {
+	height: 32px;
+	float: left;
+	margin-right: 0.5em;
+}
+a:active {
+	outline: none;
+	-moz-outline: none;
+}
+
+a {
+	-moz-user-focus: none;
+}
+
+.page-title {
+	display: none;
+}
+
+.woocommerce-result-count {
+	float: left;
+	padding: 0.5em;
+}
+
+#main {
+}
+
+#main-nav {
+}
+
+#content, nav {
+    padding: 0 2em;
+}
+
+#content {
+}
+
+#footer {
+   padding: 1em 2em 0.5em 2em;
+}
+
+#header #navigation {
+	font-size: 24px;
+	z-index: 2000;
+}
+
+#header #navigation ul.nav {
+	margin-top: 0;
+	float: left;
+}
+
+#navigation li {
+	float: none;
+}
+
+#header #navigation {
+	float: left;
+	display: block;
+	position: relative;
+}
+
+#featured-products {
+	float: left;
+	width: 70%;
+
+}
+
+#featured-products h3 {
+	margin-left: 20px;
+	color: #363230;
+}
+
+#featured-products ul.products {
+	padding-left: 20px;
+
+}
+
+
+#navigation ul {
+	margin-top: 0;
+}
+#header #navigation ul.nav > li a {
+	font-weight: normal;
+	font-family: "Bariol Light";
+}
+
+#orderbybox {
+	float: right;
+	width: 200px;
+	overflow: hidden;
+	margin-bottom: 1em;
+	border-radius: 5px;
+	outline: 0;
+	color: black;
+}
+
+.orderby {
+	outline: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 224px;
+	font-weight: normal;
+	font-family: "Bariol Light";
+	font-size: 16px;
+	float: left;
+	color: white;
+	overflow: hidden;
+	background: url("http://data.sukhatada.com.s3.amazonaws.com/arrow.png") no-repeat right black;
+	border: none;
+	padding: 5px;
+}
+
+.orderby option {
+	border-bottom: 1px solid #999;
+	color: #ccc;
+	background: black;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+#wrapper {
+	background: url('images/gomiyama_tile.jpg');
+}
+
+#sliderbox {
+	position: relative;
+	float:left;
+	width: 650px;
+}
+
+
+.metaslider {
+	float: left;
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+}
+
+.rslides {
+	border-radius: 5px;
+}
+
+#slideroverlay {
+	border-radius: 5px;
+	float: left;
+	position: absolute;
+	z-index: 1000;
+	top: 100px;
+	width: 100%;
+	max-width: 650px;
+	height: 200px;
+	top: 0px;
+	left: 0px;
+	background: url("http://data.sukhatada.com.s3.amazonaws.com/overlay.png");
+}
+.slides li {
+	margin: none;
+}
+
+.zoom {
+	margin-right: 1em;
+}
+
+#copyright {
+	margin-top: 4px;
+}
+
+strong {
+	font-family: "Bariol Bold";
+	font-weight: normal;
+}
