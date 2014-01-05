@@ -4,7 +4,7 @@ WOO CUSTOM STYLESHEET
 
 Instructions:
 
-Add your custom styles in this file instead of style.css so it 
+Add your custom styles in this file instead of style.css so it
 is easier to update the theme. Simply copy an existing style 
 from style.css to this file, and modify it to your liking. */
 
@@ -168,7 +168,7 @@ a {
 	float: left;
 	color: white;
 	overflow: hidden;
-	background: url("http://data.sukhatada.com.s3.amazonaws.com/arrow.png") no-repeat right black;
+	background: url("http://bucket.gomiyama.com.s3.amazonaws.com/images/arrow.png") no-repeat right black;
 	border: none;
 	padding: 5px;
 }
@@ -183,7 +183,7 @@ a {
 }
 
 #wrapper {
-	background: url('images/gomiyama_tile.jpg');
+	background: url('http://bucket.gomiyama.com.s3.amazonaws.com/images/gomiyama_tile.jpg');
 }
 
 #sliderbox {
@@ -216,7 +216,7 @@ a {
 	height: 200px;
 	top: 0px;
 	left: 0px;
-	background: url("http://data.sukhatada.com.s3.amazonaws.com/overlay.png");
+	background: url("http://bucket.gomiyama.com.s3.amazonaws.com/images/overlay.png");
 }
 .slides li {
 	margin: none;

@@ -1,31 +1,28 @@
-/*  
-Theme Name: Gomi Yama 
+/*
+Theme Name: Gomi Yama
 Theme URI: http://www.gomiyama.com/
 Version: 1.0
 Description: Designed by Michiel Kauw-A-Tjoe, based on <a href="http://www.woothemes.com">WooThemes</a>.
 Author: Michiel Kauw-A-Tjoe
 Author URI: http://www.michielkauwatjoe.com
-Tags: 
+Tags: webshop, giclee prints
 
-	Copyright: (c) 2012 Michiel Kauw-A-Tjoe.
-	License: GNU General Public License v2.0
-	License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
+    Copyright: (c) 2012 Michiel Kauw-A-Tjoe.
+    License: GNU General Public License v2.0
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
-@import url('/wp-content/themes/sukhatada/fonts/bariol/style.css');
+@import url('http://bucket.gomiyama.com.s3.amazonaws.com/fonts/bariol/style.css');
 
 .primary {
-	display: none;
+    display: none;
 }
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
-blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
-ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i,
-center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption,
-tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section,
-summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address,
+big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl,
+dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time,
+mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -34,35 +31,27 @@ summary, time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
 }
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 /* Hand cursor on clickable input elements */
-label,
-input[type="button"],
-input[type="submit"],
-input[type="image"],
-button {
+label, input[type="button"], input[type="submit"], input[type="image"], button {
   cursor: pointer;
 }
-/* Bicubic resizing for non-native sized IMG: code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
+
+/**
+ * Bicubic resizing for non-native sized IMG:
+ * code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/
+ */
 .ie7 img {
   -ms-interpolation-mode: bicubic;
 }
+
 /* www.sitepoint.com/blogs/2010/08/20/ie-remove-textarea-scrollbars/ */
 textarea {
   overflow: auto;
@@ -95,7 +84,7 @@ textarea {
    background: black;
    color: white;
    font-family: "Bariol Light";
-   background: url("http://data.sukhatada.com.s3.amazonaws.com/arrow.png") no-repeat right black;
+   background: url("http://bucket.gomiyama.com.s3.amazonaws.com/images/arrow.png") no-repeat right black;
    border-radius: 5px;
    width: 224px;
    font-size: 16px;
@@ -113,6 +102,7 @@ select,
 textarea {
   margin: 0;
 }
+
 /* www.pathf.com/blogs/2008/05/formatting-quoted-code-in-blog-posts-css21-white-space-pre-wrap/ */
 pre {
   white-space: pre;
@@ -122,6 +112,7 @@ pre {
   padding: 1em;
   margin-bottom: 1.618em;
 }
+
 /* Normalize monospace sizing: en.wikipedia.org/wiki/MediaWiki_talk:Common.css/Archive_11#Teletype_style_fix_for_Chrome */
 pre,
 code,
@@ -187,10 +178,12 @@ sub {
 /* 1. SETUP */
 /*-------------------------------------------------------------------------------------------*/
 /* 1.1 Defaults */
+
 html {
 	font-size: 12px;
 	background: black;
 }
+
 body {
   font-size: 1.6em;
   line-height: 1.618;
@@ -233,22 +226,21 @@ a:hover {
 .clear {
   clear: both;
 }
+
 /* 1.3 Typography */
+
 /*
-	All typography (and layout) based on a modular scale using 12 & 14 px values scaled in accordance the golden ratio (1.618)
-	http://modularscale.com/scale/?px1=14&px2=12&ra1=1.618&ra2=0
-	Remember to keep margins consistent and try to avoid margin-top. If everything has an appropriate margin-bottom we don't need one and vertical rhythm will be kept consistent
-*/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Bariol Light", "Bree Serif", sans-serif;
-  color: #222;
-  margin: 0 0 .318em;
-  font-weight: normal;
+ * All typography (and layout) based on a modular scale using 12 & 14 px values scaled in accordance the golden ratio
+ *
+ * http://modularscale.com/scale/?px1=14&px2=12&ra1=1.618&ra2=0
+ * Remember to keep margins consistent and try to avoid margin-top. If everything has an appropriate margin-bottom we
+ * don't need one and vertical rhythm will be kept consistent.
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Bariol Light", "Bree Serif", sans-serif;
+    color: #222;
+    margin: 0 0 .318em;
+    font-weight: normal;
 }
 
 
@@ -264,12 +256,12 @@ li a:hover h3 {
 	*/
 }
 
-
 h1 {
   font-family: "Bariol Thin";
   font-size: 60px;
   line-height: 1.387em;
 }
+
 h2 {
   font-size: 2em;
   line-height: 1.387em;
@@ -283,12 +275,15 @@ h3 {
 h4 {
   font-size: 1em;
 }
+
 h5 {
   font-size: 1em;
 }
+
 h6 {
   font-size: 0.857em;
 }
+
 p {
   -webkit-hyphens: auto;
   -webkit-hyphenate-character: "\2010";
@@ -335,16 +330,16 @@ blockquote:before {
 /* 1.3.1 Typefaces */
 @font-face {
   font-family: 'WebSymbolsRegular';
-  src: url("typefaces/websymbols-regular-webfont.eot");
-  src: url("typefaces/websymbols-regular-webfont.eot?#iefix") format('embedded-opentype'), url("typefaces/websymbols-regular-webfont.woff") format('woff'), url("typefaces/websymbols-regular-webfont.ttf") format('truetype'), url("typefaces/websymbols-regular-webfont.svg#WebSymbolsRegular") format('svg');
+  src: url("http://bucket.gomiyama.com.s3.amazonaws.com/fonts/websymbols/websymbols-regular-webfont.eot");
+  src: url("http://bucket.gomiyama.com.s3.amazonaws.com/fonts/websymbols/websymbols-regular-webfont.eot?#iefix") format('embedded-opentype'), url("http://bucket.gomiyama.com.s3.amazonaws.com/fonts/websymbols/websymbols-regular-webfont.woff") format('woff'), url("http://bucket.gomiyama.com.s3.amazonaws.com/fonts/websymbols/websymbols-regular-webfont.ttf") format('truetype'), url("http://bucket.gomiyama.com.s3.amazonaws.com/fonts/websymbols/websymbols-regular-webfont.svg#WebSymbolsRegular") format('svg');
   font-weight: normal;
   font-style: normal;
   speak: none;
 }
 @font-face {
   font-family: 'icomoon';
-  src: url("typefaces/icomoon.eot");
-  src: url("typefaces/icomoon.eot?#iefix") format('embedded-opentype'), url("typefaces/icomoon.woff") format('woff'), url("typefaces/icomoon.ttf") format('truetype'), url("typefaces/icomoon.svg#icomoon") format('svg');
+  src: url("http://bucket.gomiyama.com.s3.amazonaws.com/fonts/icomoon/icomoon.eot");
+  src: url("http://bucket.gomiyama.com.s3.amazonaws.com/fonts/icomoon/icomoon.eot?#iefix") format('embedded-opentype'), url("http://bucket.gomiyama.com.s3.amazonaws.com/fonts/icomoon/icomoon.woff") format('woff'), url("http://bucket.gomiyama.com.s3.amazonaws.com/fonts/icomoon/icomoon.ttf") format('truetype'), url("http://bucket.gomiyama.com.s3.amazonaws.com/fonts/icomoon/icomoon.svg#icomoon") format('svg');
   font-weight: normal;
   font-style: normal;
   speak: none;
@@ -474,7 +469,7 @@ ul.nav li a {
   font-size: .857em;
   font-family: "icomoon";
   font-size: 1em;
-  content: "£";
+  content: "��";
   font-weight: normal;
 }
 #top select {
@@ -706,13 +701,13 @@ ul.nav li a {
 .type-page .post-more {
   clear: both;
 }
-.post p.tags,
-.type-page p.tags {
+
+.post p.tags, .type-page p.tags {
   width: 100%;
   clear: both;
 }
-.post p.tags:before,
-.type-page p.tags:before {
+
+.post p.tags:before, .type-page p.tags:before {
   font-family: 'WebSymbolsRegular';
   display: inline-block;
   font-size: .857em;
@@ -720,8 +715,7 @@ ul.nav li a {
   font-weight: normal;
   content: ",";
 }
-.post img,
-.type-page img {
+.post img, .type-page img {
   padding: .53em;
   border: 1px solid #e8e4e3;
   background: #fff;
@@ -729,18 +723,15 @@ ul.nav li a {
   height: auto !important;
   display: block;
 }
-.post img:hover,
-.type-page img:hover {
+.post img:hover, .type-page img:hover {
   border-color: #d1cac7;
 }
-.post img.thumbnail,
-.type-page img.thumbnail {
+.post img.thumbnail, .type-page img.thumbnail {
   padding: 0;
   border: 0 !important;
   border-bottom: 0.327em solid #ed1c24 !important;
 }
-.post img.wp-smiley,
-.type-page img.wp-smiley {
+.post img.wp-smiley, .type-page img.wp-smiley {
   padding: 0;
   border: 0;
 }
@@ -960,7 +951,7 @@ ul.nav li a {
   width: .857em;
 }
 .widget.widget_layered_nav li.chosen:before {
-  content: "×";
+  content: "��";
   color: #b85f56;
 }
 .widget.widget_login label {
@@ -1346,7 +1337,7 @@ ul.nav li a {
   font-size: .857em;
   margin-right: .618em;
   font-weight: normal;
-  content: "×";
+  content: "��";
 }
 #respond #commentform .comment-form-author,
 #respond #commentform .comment-form-email,
@@ -2075,14 +2066,14 @@ box-shadow: 3px 3px 8px black;
   display: inline-block;
   font-size: .857em;
   margin-right: .618em;
-  content: "²";
+  content: "��";
   font-weight: normal;
 }
 .woocommerce_tabs ul.tabs li.active a {
   border-color: #c6c2c1;
 }
 .woocommerce_tabs ul.tabs li.attributes_tab a:before {
-  content: "³";
+  content: "��";
 }
 .woocommerce_tabs ul.tabs li.reviews_tab a:before {
   content: "e";
@@ -2921,6 +2912,7 @@ button.button:hover {
 
   background-image: linear-gradient(to bottom, #ed2100, #ee3700);
 }
+
 a.button:active,
 a.comment-reply-link:active,
 #commentform #submit:active,
@@ -2948,13 +2940,16 @@ button.button:active {
   -webkit-box-shadow: 0 0 0 0.327em rgba(0, 0, 0, 0.075), inset 0 1px 2px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 0 0.327em rgba(0, 0, 0, 0.075), inset 0 1px 2px rgba(0, 0, 0, 0.2);
 }
+
 a.remove {
   font-family: 'WebSymbolsRegular';
 }
+
 /* 8.2 Gravity forms */
 ul.gform_fields li {
   list-style: none;
 }
+
 .gfield {
   margin-bottom: 1.618em;
 }
@@ -2964,9 +2959,11 @@ ul.gform_fields li {
   margin-bottom: .618em;
   display: block;
 }
+
 .gfield_required {
   color: red;
 }
+
 .ginput_container {
   margin-bottom: 1.618em;
 }
@@ -2977,34 +2974,41 @@ ul.gform_fields li {
   overflow: hidden;
   clear: both;
 }
+
 .ginput_container label {
   display: block;
 }
+
 .ginput_container input[type=text],
 .ginput_container textarea {
   width: 100%;
 }
+
 .ginput_container .ginput_left,
 .ginput_container .ginput_right,
 .ginput_container .ginput_full {
   margin-bottom: 1em;
   display: block;
 }
+
 .ginput_container .ginput_left label,
 .ginput_container .ginput_right label,
 .ginput_container .ginput_full label {
   font-size: .875em;
 }
+
 .ginput_container .ginput_left,
 .ginput_container .ginput_right {
   width: 48%;
   float: left;
   clear: left;
 }
+
 .ginput_container .ginput_right {
   float: right;
   clear: none;
 }
+
 .ginput_container .gfield_checkbox input,
 .ginput_container .gfield_radio input {
   float: left;
@@ -3013,10 +3017,12 @@ img.ui-datepicker-trigger {
   border: 0;
   padding: 0;
 }
+
 /* 8.3 IE specific styling */
 .ie8 .widget_woo_blogauthorinfo .avatar {
   width: auto;
 }
+
 .ie8 #top select {
   display: none !important;
 }
