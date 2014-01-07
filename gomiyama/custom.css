@@ -56,9 +56,6 @@ Add styles inside the media query below that you only want to be applied to the 
 	}
 }
 
-	#logo {
-		margin-top: 1em;
-	}
 }
 
 #footericon, #footericon img {
