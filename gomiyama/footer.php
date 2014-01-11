@@ -47,7 +47,7 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 		<footer id="footer" class="col-full">
 
 			<div id="footericon">	
-			<img src="http://data.sukhatada.com.s3.amazonaws.com/sukhatada-logo-white-transparent.png"/>
+			<img src="http://bucket.gomiyama.com.s3.amazonaws.com/images/logo-footer.png"/>
 			</div>
 			<div id="copyright" class="col-left">
 			<?php if( isset( $woo_options['woo_footer_left'] ) && $woo_options['woo_footer_left'] == 'true' ) {

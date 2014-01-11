@@ -40,6 +40,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .widget aside h3 {
 	color: black;
 }
+
+aside {
+	border-radius: 10px;
+}
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -396,16 +401,7 @@ ul.nav li a {
   list-style: none;
   margin-top: 7.654em;
 }
-/* Optional Styling */
-#navigation {
-  border: 1px solid #ddd7d5;
-  -webkit-border-radius: 0.327em;
-  border-radius: 0.327em;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.03);
-  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.03);
-}
+
 /* 2.2.2 Top Navigation (optional) */
 #top:after {
   content: "\0020";
@@ -418,7 +414,7 @@ ul.nav li a {
   margin-top: 1em;
   padding: 0.15em;
   text-align: right;
-  background: black;
+  background: #ed1c24;
   border-radius: 5px;
 }
 #top .wc-nav li {

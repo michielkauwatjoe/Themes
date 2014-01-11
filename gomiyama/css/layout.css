@@ -101,7 +101,7 @@ INDEX
   }
   /* 2. TOP NAVIGATION (Add top navigation presentational styles here) */
   #top {
-
+	float: right;
   }
 
   #top #top-nav {
@@ -191,10 +191,15 @@ INDEX
   #header #navigation ul.nav > li:hover a {
     border-color: #e8e4e3;
   }
-  #header #navigation ul.nav > li.current-menu-item > a,
-  #header #navigation ul.nav > li.current_page_item > a {
-    color: #333;
+
+  #header #navigation ul.nav > li > a, #header #navigation ul.nav > li > a {
+    color: white;
   }
+
+  #header #navigation ul.nav > li.current-menu-item > a, #header #navigation ul.nav > li.current_page_item > a {
+    color: #ed1c24;
+  }
+
   #header #navigation ul.nav > li.parent a {
     -webkit-border-bottom-left-radius: 0;
     -webkit-border-bottom-right-radius: 0;
@@ -564,6 +569,7 @@ INDEX
     padding-bottom: 0em;
     padding-top: 1em;
     margin-bottom: 1em;
+    background: url("http://bucket.gomiyama.com.s3.amazonaws.com/images/paper.png");
   }
   #header:after {
     content: "\0020";

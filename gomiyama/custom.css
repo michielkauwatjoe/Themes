@@ -26,7 +26,7 @@ Add styles inside the media query below that you only want to be applied to the 
 	max-width: 500px;
 }
 
-#content, #header {
+#content {
 	max-width: 1200px;
 	margin-right: auto;
 	margin-left: auto;
@@ -99,23 +99,22 @@ a {
 }
 
 #header #navigation {
-	font-size: 24px;
+	font-size: 18px;
 	z-index: 2000;
 }
 
 #header #navigation ul.nav {
 	margin-top: 0;
-	float: left;
 }
 
 #navigation li {
-	float: none;
+	float: left;
 }
 
 #header #navigation {
-	float: left;
-	display: block;
-	position: relative;
+	width: 100%;
+	display: inline;
+	background: black;
 }
 
 #featured-products {
