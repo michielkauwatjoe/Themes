@@ -36,6 +36,10 @@ mark, audio, video {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
 }
+
+.widget aside h3 {
+	color: black;
+}
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -562,9 +566,8 @@ ul.nav li a {
 }
 #footer {
   padding: 2.618em 0;
-  border-top: 2px solid #e8e4e3;
   color: white;
-  margin-bottom: 5em;
+  background: black;
 }
 #footer #credit img {
   vertical-align: middle;
@@ -904,11 +907,10 @@ ul.nav li a {
   margin-bottom: 2.618em;
 }
 .widget h3 {
-  color: #39302d;
-  border: 1px double #e8e4e3;
+  color: white;
   border-width: 1px 0 4px;
   padding: .618em 0;
-  font-family: "Bariol Regular", sans-serif;
+  font-family: "Bariol Light", sans-serif;
 }
 .widget ul {
   list-style: none;
@@ -927,12 +929,10 @@ ul.nav li a {
 .widget.widget_nav_menu li:before,
 .widget.widget_login li:before,
 .widget.widget_layered_nav li:before {
-  font-family: 'WebSymbolsRegular';
   display: inline-block;
   font-size: .857em;
   margin-right: .618em;
   font-weight: normal;
-  content: ">";
   color: #e3dad7;
   width: .857em;
 }

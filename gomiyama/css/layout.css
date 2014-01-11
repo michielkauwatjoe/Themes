@@ -845,10 +845,15 @@ INDEX
     border-top: 0;
   }
   #footer-widgets .block {
-    margin-right: 3.8%;
-    margin-left: 1%;
+    margin-left: 2.5%;
     float: left;
   }
+
+
+  #footer-widgets a {
+	color: white;
+  }
+
   #footer-widgets.col-1 .block {
     width: 100%;
     float: none;
