@@ -162,10 +162,11 @@ a {
 	font-weight: normal;
 	font-family: "Bariol Light";
 	font-size: 16px;
-	float: left;
+	float: right;
 	color: white;
 	overflow: hidden;
-	background: url("http://bucket.gomiyama.com.s3.amazonaws.com/images/arrow.png") no-repeat right black;
+	/*background: url("http://bucket.gomiyama.com.s3.amazonaws.com/images/arrow.png") no-repeat right black;*/
+	background: black;
 	border: none;
 	padding: 5px;
 }

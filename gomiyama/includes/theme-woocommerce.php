@@ -149,7 +149,7 @@ add_filter( 'woocommerce_product_thumbnails_columns', 'woocommerce_custom_produc
 
 if (!function_exists('woocommerce_custom_product_thumbnails_columns')) {
 	function woocommerce_custom_product_thumbnails_columns() {
-		return 4;
+		return 3;
 	}
 }
 
@@ -157,7 +157,7 @@ if (!function_exists('woocommerce_custom_product_thumbnails_columns')) {
 add_filter('loop_shop_columns', 'loop_columns');
 if (!function_exists('loop_columns')) {
 	function loop_columns() {
-		return 4;
+		return 3;
 	}
 }
 
