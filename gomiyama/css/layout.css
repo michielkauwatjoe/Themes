@@ -118,12 +118,14 @@ INDEX
     color: #877C78;
     font-weight: normal;
   }
+
   #top ul.nav > li a:hover {
-    background: white;
+    border: 1px solid red;
     border-radius: 5px;
     text-decoration: none;
     color: black;
   }
+
   #top ul.nav > li:hover {
     background: #f7f7f7;
   }
@@ -174,14 +176,11 @@ INDEX
     display: block !important;
     margin-top: .382em;
   }
+
   #header #navigation ul.nav {
-    margin-top: 10em;
     float: right;
-    /* LEVEL 2 */
-  
-    /* LEVEL 3 */
-  
   }
+
   #header #navigation ul.nav > li a {
     position: relative;
   }
@@ -223,21 +222,8 @@ INDEX
     display: block;
     height: 2px;
     position: absolute;
-    bottom: -1px;
     left: 0;
     right: 0;
-    background: #fff;
-    z-index: 99999;
-  }
-  #header #navigation ul.nav > li.parent:hover a:before {
-    content: "";
-    display: block;
-    height: 2px;
-    position: absolute;
-    bottom: -1px;
-    left: 0;
-    right: 0;
-    background: #fff;
     z-index: 99999;
   }
   #header #navigation ul.nav > li.parent:hover a:after {
@@ -262,8 +248,6 @@ INDEX
     visibility: hidden;
   }
   #header #navigation ul.nav ul {
-    border: 1px solid #e8e4e3;
-    margin-top: -1px;
     padding: .372em 0;
     box-shadow: 0 0.202em 0 0 rgba(232, 228, 227, 0.4);
     -webkit-box-shadow: 0 0.202em 0 0 rgba(232, 228, 227, 0.4);

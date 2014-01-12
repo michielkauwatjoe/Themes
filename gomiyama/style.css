@@ -2593,8 +2593,9 @@ textarea,
 input.txt,
 input[type=tel],
 input[type=email] {
-  padding: .236em .5em;
-  border: 1px solid #c4c0bf;
+  color: white;
+  padding: .4em .5em;
+  border: none;
   -webkit-border-radius: 0.125em;
   border-radius: 0.125em;
   -moz-background-clip: padding;
@@ -2609,7 +2610,7 @@ input[type=email] {
 
   outline: none;
   margin: 0 .327em;
-  background: #f7f7f7;
+  background: black;
   -webkit-box-sizing: border-box;
   /* Safari/Chrome, other WebKit */
 
@@ -2620,9 +2621,8 @@ input[type=email] {
   /* Opera/IE 8+ */
 
   -webkit-appearance: none;
-  -webkit-box-shadow: 0 0 0 0.327em rgba(0, 0, 0, 0.03), inset 0 1px 2px #d8d4d3, 0 1px #ffffff;
-  box-shadow: 0 0 0 0.327em rgba(0, 0, 0, 0.03), inset 0 1px 2px #d8d4d3, 0 1px #ffffff;
 }
+
 input[type=text]:focus,
 input.input-text:focus,
 textarea:focus,
@@ -2630,7 +2630,6 @@ input.txt:focus,
 input[type=tel]:focus,
 input[type=email]:focus {
   border-color: rgba(255, 72, 0, 0.8);
-  background: #fff;
   -webkit-box-shadow: 0 0 0 0.327em rgba(255, 72, 0, 0.1), 0 0 0.202em rgba(255, 72, 0, 0.4);
   box-shadow: 0 0 0 0.327em rgba(255, 72, 0, 0.1), 0 0 0.202em rgba(255, 72, 0, 0.4);
 }
