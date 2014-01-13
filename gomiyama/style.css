@@ -86,7 +86,6 @@ textarea {
 }
 
 .styled-select select option {
-	border-bottom: 1px solid #999;
 	color: #ccc;
 	background: black;
 	-webkit-appearance: none;
@@ -774,8 +773,7 @@ ul.nav li a {
 }
 /* 3.2 Pagination / WP-Pagenavi / Woo-Pagination */
 .nav-entries,
-.wp-pagenavi,
-.woocommerce-pagination {
+.wp-pagenavi {
   padding: 1em 1.618em;
 }
 .nav-entries a {
@@ -797,7 +795,7 @@ ul.nav li a {
   text-decoration: none;
   padding: .382em .53em;
   font-family: "Bariol Light";
-  font-size: 1.2em;
+  font-size: 18px;
   border-radius: 0.2em;
 }
 .woocommerce-pagination .page-numbers:hover {
@@ -1722,8 +1720,6 @@ dl.variation dd ul {
 .woocommerce-error {
   padding: .618em 1em .618em 2.618em;
   margin-bottom: 1.618em;
-  background: #fe0000;
-  border: 1px solid black;
   border-left-width: .382em ;
   position: relative;
   font-family: "Bariol Light";
@@ -1734,10 +1730,10 @@ dl.variation dd ul {
   font-family: 'WebSymbolsRegular';
   content: "S";
   display: block;
-  color: black;
+  color: #ED1C24;
   font-weight: normal;
   position: absolute;
-  top: .618em;
+top: .618em;
   font-size: 1em;
   left: .857em;
 }
@@ -1801,11 +1797,12 @@ ul.products:after {
   overflow: hidden;
   clear: both;
 }
+
 ul.products li.product {
   position: relative;
   float: left;
   width: 48%;
-  margin-right: 3.8%;
+  margin-right: 4%;
   margin-bottom: 1.618em;
   text-align: center;
 }
@@ -1839,9 +1836,7 @@ ul.products li.product img {
   background: #fff;
   margin: 0 auto 1em;
 }
-ul.products li.product:nth-child(2n) {
-  margin-right: 0;
-}
+
 .pagination-wrap {
   margin-bottom: 1.618em;
   padding-top: 1.618em;
@@ -2156,7 +2151,8 @@ ul#shipping_method {
   margin-right: 1em;
 }
 .checkout #order_review {
-  background: #333;
+  color: white;
+  background: #ED1C24;
   padding: .618em;
   -webkit-border-radius: 0.382em;
   border-radius: 0.382em;
@@ -2165,11 +2161,8 @@ ul#shipping_method {
   background-clip: padding-box;
 }
 .checkout #order_review table {
-  background: #222;
-  border: 1px solid #e8e4e3;
+  border-bottom: 1px solid #e8e4e3;
   border-bottom: 0;
-  box-shadow: 0 0 0 0.327em rgba(0, 0, 0, 0.015);
-  -webkit-box-shadow: 0 0 0 0.327em rgba(0, 0, 0, 0.015);
 }
 .checkout #order_review table tr td:first-child,
 .checkout #order_review table tr th:first-child {
@@ -2200,10 +2193,7 @@ ul#shipping_method {
   border: 0;
 }
 .checkout #order_review #payment ul li .payment_box {
-  background: #222;
   padding: 1em;
-  -webkit-border-radius: 0.382em;
-  border-radius: 0.382em;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;

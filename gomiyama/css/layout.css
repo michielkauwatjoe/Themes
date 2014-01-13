@@ -120,8 +120,6 @@ INDEX
   }
 
   #top ul.nav > li a:hover {
-    border: 1px solid red;
-    border-radius: 5px;
     text-decoration: none;
     color: black;
   }
@@ -648,13 +646,11 @@ INDEX
   /* 7.1 Messages */
   /* 7.2 Products */
   ul.products li.product {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     position: relative;
     width: 22.00%;
   }
-  ul.products li.product:nth-child(2n) {
-    margin-right: 2%;
-  }
+
   ul.products li.product.first {
     clear: both;
   }
