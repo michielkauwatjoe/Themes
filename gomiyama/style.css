@@ -68,8 +68,7 @@ textarea {
   overflow: auto;
 }
 
-.selectbox {
-  float: left;
+.styled-select {
   background: black;
   border-radius: 5px;
   padding: 5px;
@@ -78,7 +77,15 @@ textarea {
   overflow: hidden;
 }
 
-#pa_sizes option {
+#main .styled-select {
+	float: right;
+}
+
+.styled-select select {
+   background: url("http://bucket.gomiyama.com.s3.amazonaws.com/images/arrow.png") no-repeat right black;*/
+}
+
+.styled-select select option {
 	border-bottom: 1px solid #999;
 	color: #ccc;
 	background: black;
@@ -88,19 +95,15 @@ textarea {
 }
 
 #pa_sizes {
-   outline: 0;
-   -webkit-appearance: none;
-   -moz-appearance: none;
-   appearance: none;
-   background: black;
-   color: white;
-   font-family: "Bariol Light";
-   /*background: url("http://bucket.gomiyama.com.s3.amazonaws.com/images/arrow.png") no-repeat right black;*/
-   border-radius: 5px;
    width: 224px;
    font-size: 16px;
    border: 0;
    height: 22px;
+   font-family: "Bariol Light";
+   color: white;
+   outline: 0;
+   -moz-appearance: none;
+   appearance: none;
    -webkit-appearance: none;
    float: left;
    overflow: hidden; 

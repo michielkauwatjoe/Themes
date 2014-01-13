@@ -143,32 +143,21 @@ a {
 	font-family: "Bariol Light";
 }
 
-#orderbybox {
-	float: right;
-	width: 200px;
-	overflow: hidden;
-	margin-bottom: 1em;
-	border-radius: 5px;
-	outline: 0;
-	color: black;
-}
-
 .orderby {
 	outline: 0;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-	width: 224px;
+	width: 230px;
+	height: 22px;
 	font-weight: normal;
 	font-family: "Bariol Light";
 	font-size: 16px;
-	float: right;
 	color: white;
 	overflow: hidden;
 	/*background: url("http://bucket.gomiyama.com.s3.amazonaws.com/images/arrow.png") no-repeat right black;*/
 	background: black;
 	border: none;
-	padding: 5px;
 }
 
 .orderby option {
