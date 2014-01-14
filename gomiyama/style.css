@@ -79,6 +79,7 @@ textarea {
 
 #main .styled-select {
 	float: right;
+	margin-bottom: 1.618em;
 }
 
 .styled-select select {
@@ -371,10 +372,6 @@ table tr td:last-child {
 /*-------------------------------------------------------------------------------------------*/
 /* 2.1 Containers & Columns */
 /* 2.2 Navigation */
-ul.nav li a {
-  padding: 0 1em;
-  display: block;
-}
 #navigation {
   clear: both;
   margin-bottom: 2.618em;
@@ -411,13 +408,6 @@ ul.nav li a {
   height: 0;
   overflow: hidden;
   clear: both;
-}
-#top .wc-nav {
-  margin-top: 1em;
-  padding: 0.15em;
-  text-align: right;
-  background: #ed1c24;
-  border-radius: 5px;
 }
 #top .wc-nav li {
   list-style: none;
@@ -500,7 +490,6 @@ ul.nav li a {
   width: 100%;
   font-family: sans-serif;
   background-color: black;
-  padding-left: 0.5em;
 }
 
 
@@ -1766,6 +1755,7 @@ top: .618em;
 ul.products {
   margin-left: 0 !important;
   list-style: none;
+  clear: both;
 }
 ul.products:after {
   content: "\0020";
@@ -1779,8 +1769,7 @@ ul.products li.product {
   position: relative;
   float: left;
   width: 48%;
-  margin-right: 4%;
-  margin-bottom: 1.618em;
+  margin-right: 2%;
   text-align: center;
 }
 ul.products li.product h3 {
@@ -2564,7 +2553,7 @@ input.txt,
 input[type=tel],
 input[type=email] {
   color: white;
-  padding: .4em .5em;
+  padding: .1em;
   border: none;
   -webkit-border-radius: 0.125em;
   border-radius: 0.125em;
@@ -2579,7 +2568,7 @@ input[type=email] {
   /* Make inputs use the correct typeface instead of the browser default */
 
   outline: none;
-  margin: 0 .327em;
+  margin: .327em;
   background: black;
   -webkit-box-sizing: border-box;
   /* Safari/Chrome, other WebKit */

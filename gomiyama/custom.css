@@ -70,6 +70,7 @@ a {
 .woocommerce-result-count {
 	float: left;
 	padding: 0.5em;
+	clear: both;
 }
 
 #main {
@@ -94,14 +95,6 @@ a {
 	z-index: 2000;
 }
 
-#header #navigation ul.nav {
-	margin-top: 0;
-	margin-right: 50px;
-}
-
-#navigation li {
-	float: left;
-}
 
 #header #navigation {
 	width: 100%;

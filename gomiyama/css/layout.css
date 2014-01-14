@@ -32,7 +32,57 @@ INDEX
 /*----------------------*/
 /*----------------------*/
 
+@media only screen and (max-width: 768px) {
+	.footer-wrap {
+		background: #ED1C24;
+	}
+	#footer-widgets {
+		padding: 0.5em;
+	}
+	#header #logo {
+		visibility: hidden;
+		display: none;
+	}
+
+	#top .wc-nav {
+	  text-align: right;
+	  background: #ed1c24;
+	  margin: 0;
+	}
+
+	ul.nav li a {
+		display: block;
+		width: 100%;
+		clear: both;
+	}
+	#main-nav {
+	background: white;
+	width: 100%;
+	}
+
+	#main-nav li {
+		padding-left: 1em;
+	}
+
+	#header #navigation ul.nav {
+		margin-right: 0;
+	}
+
+}
+
 @media only screen and (min-width: 768px) {
+	ul.nav li a {
+	  padding: 0 1em;
+	  display: block;
+	}
+
+	#top .wc-nav {
+	  margin-top: 1em;
+	  padding: 0.15em;
+	  text-align: right;
+	  background: #ed1c24;
+	  border-radius: 5px;
+	}
   html.boxed {
   }
 
