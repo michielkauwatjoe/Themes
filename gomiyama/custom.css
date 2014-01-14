@@ -21,7 +21,6 @@ DESKTOP STYLES
 Add styles inside the media query below that you only want to be applied to the desktop layout of your site */
 
 
-
 .images a img, .summary {
 	max-width: 500px;
 }
@@ -30,7 +29,6 @@ Add styles inside the media query below that you only want to be applied to the 
 	max-width: 1200px;
 	margin-right: auto;
 	margin-left: auto;
-	border-radius: 15px;
 }
 
 @media only screen and (min-width: 940px) {
@@ -50,7 +48,6 @@ Add styles inside the media query below that you only want to be applied to the 
 	}
 }
 
-}
 
 #footericon, #footericon img {
 	height: 32px;
@@ -81,7 +78,7 @@ a {
 #main-nav {
 }
 
-#content, nav {
+#content {
     padding: 0 2em;
 }
 

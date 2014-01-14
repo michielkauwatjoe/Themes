@@ -31,14 +31,18 @@ INDEX
 */
 /*----------------------*/
 /*----------------------*/
+
 @media only screen and (min-width: 768px) {
   html.boxed {
   }
+
   html.boxed body {
   }
+
   body {
     background: #333;
   }
+
   table {
     font-size: 1em !important;
   }
@@ -134,7 +138,7 @@ INDEX
     padding: .53em 1em;
   }
   #top .wc-nav {
-    width: auto;
+    width: 100%;
     float: right;
   }
   #top .wc-nav li.checkout {
@@ -560,13 +564,10 @@ INDEX
     overflow: hidden;
     clear: both;
   }
+
   #header hgroup {
     float: left;
     margin-bottom: 0em;
-  }
-  
-  #header #logo {
-    float: left;
   }
   
   #header #navigation {
@@ -875,6 +876,7 @@ INDEX
     z-index: 9999999;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 1025px) {
   .homepage-banner h1 {
     font-size: 2.244em;
