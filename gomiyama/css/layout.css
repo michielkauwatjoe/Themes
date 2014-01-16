@@ -1,5 +1,5 @@
 /*
-The styles in this stylesheet only apply to resolutions 768px and up
+The styles in this stylesheet only apply to resolutions 667px and up
 
 CALCULATING DIMENSIONS:
 ----------------------
@@ -32,7 +32,25 @@ INDEX
 /*----------------------*/
 /*----------------------*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 430px) {
+  ul.products li.product {
+    position: relative;
+    width: 98.00%;
+  }
+}
+
+@media only screen and (min-width: 430px) and (max-width: 667px) {
+  ul.products li.product {
+    position: relative;
+    width: 48.00%;
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  ul.products li.product.first {
+    clear: both;
+  }
+
 	.footer-wrap {
 		background: #ED1C24;
 	}
@@ -44,9 +62,19 @@ INDEX
 		display: none;
 	}
 
+	#mobile-logo {
+		width: 222px;
+		padding-left: 0.5em;
+		float: left;
+	}
+
+	#top {
+	  background: #ed1c24;
+	}
+
 	#top .wc-nav {
 	  text-align: right;
-	  background: #ed1c24;
+	  float: right;
 	  margin: 0;
 	}
 
@@ -70,7 +98,13 @@ INDEX
 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 667px) {
+
+	#mobile-logo {
+		display: none;
+		visibility: hidden;
+	}
+
 	ul.nav li a {
 	  padding: 0 1em;
 	  display: block;
@@ -163,6 +197,7 @@ INDEX
   }
   #top ul.nav {
     font-size: .857em;
+    margin-right: 0.5em;
     /* LEVEL 2 */
   
     /* LEVEL 3 */
@@ -927,7 +962,7 @@ INDEX
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1025px) {
+@media only screen and (min-width: 667px) and (max-width: 1025px) {
   .homepage-banner h1 {
     font-size: 2.244em;
   }

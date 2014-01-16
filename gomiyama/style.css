@@ -425,9 +425,7 @@ table tr td:last-child {
   display: none;
 }
 #top .wc-nav li.cart {
-  width: 48%;
-  float: left;
-  text-align: left;
+	margin-right: 0.5em;
 }
 #top .wc-nav li.cart a {
   color: white;
