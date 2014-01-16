@@ -432,6 +432,10 @@ table tr td:last-child {
   font-family: "Bariol Light";
 }
 
+#top .wc-nav li.checkout {
+	margin-right: 0.5em;
+}
+
 #top .wc-nav li.checkout a {
   color: white;
 }
@@ -482,12 +486,14 @@ table tr td:last-child {
   overflow: hidden;
   clear: both;
 }
+
 #header .nav-toggle {
   cursor: pointer;
   float: left;
   width: 100%;
   font-family: sans-serif;
   background-color: black;
+  padding-top: 0.1em;
 }
 
 
@@ -497,6 +503,7 @@ h3.nav-toggle {
 #header .nav-toggle a {
   color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+  margin: 0 0 0 0.5em;
 }
 #header .nav-toggle a:hover {
   text-decoration: none;
