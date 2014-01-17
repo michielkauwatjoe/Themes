@@ -409,6 +409,10 @@ table tr td:last-child {
   overflow: hidden;
   clear: both;
 }
+
+#top {
+	background: url("http://bucket.gomiyama.com.s3.amazonaws.com/images/paper.png");
+}
 #top .wc-nav li {
   list-style: none;
   display: inline-block;
@@ -457,14 +461,6 @@ table tr td:last-child {
   display: none;
 }
 
-/* 2.3 Header */
-#header #logo {
-  float: left;
-  margin-bottom: 1.618em;
-  margin-left: 1.618em;
-  clear: both;
-}
-
 #header .site-title,
 #header .site-description {
   display: none;
@@ -476,6 +472,11 @@ table tr td:last-child {
   font-weight: normal;
   text-decoration: none;
 }
+
+#header {
+  margin-bottom: 1.618em;
+}
+
 #header hgroup {
   position: relative;
 }
@@ -1944,6 +1945,7 @@ box-shadow: 3px 3px 8px black;
 .summary .group_table .stock {
   margin-left: 1em;
 }
+
 .single-product .images,
 .single-product .summary {
   margin-bottom: 1.618em;

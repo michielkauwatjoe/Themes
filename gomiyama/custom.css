@@ -93,12 +93,7 @@ a {
 #header #navigation {
 	font-size: 18px;
 	z-index: 2000;
-}
-
-
-#header #navigation {
 	width: 100%;
-	display: inline;
 	background: black;
 }
 

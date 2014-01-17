@@ -54,8 +54,8 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 
 	
 	<div id="top">
-		<div id="mobile-logo">
-		<img src="http://bucket.gomiyama.com.s3.amazonaws.com/images/logo-mobile.png"/>
+		<div id="logo">
+		<a href="/"><img src="http://www.gomiyama.com/wp-content/uploads/logo.png"/></a>
 		</div>
 		<nav class="" role="navigation">
 			<?php if ( function_exists( 'has_nav_menu' ) && has_nav_menu( 'top-menu' ) ) { ?>
@@ -78,25 +78,8 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
     <?php woo_header_before(); ?>
 
 	<header id="header" >
-			  
-	   
-	    
 	    <hgroup>
-	    	
-	    	 <?php
-			    $logo = esc_url( get_template_directory_uri() . '/images/logo.png' );
-				if ( isset( $woo_options['woo_logo'] ) && $woo_options['woo_logo'] != '' ) { $logo = $woo_options['woo_logo']; }
-				if ( isset( $woo_options['woo_logo'] ) && $woo_options['woo_logo'] != '' && is_ssl() ) { $logo = preg_replace("/^http:/", "https:", $woo_options['woo_logo']); }
-			?>
-			<?php if ( ! isset( $woo_options['woo_texttitle'] ) || $woo_options['woo_texttitle'] != 'true' ) { ?>
-			    <a id="logo" href="/" title="<?php esc_attr( get_bloginfo( 'description' ) ); ?>">
-			    	<img src="<?php echo $logo; ?>" alt="<?php esc_attr( get_bloginfo( 'name' ) ); ?>" />
-			    </a>
-		    <?php } ?>
-	        
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-			<h3 class="nav-toggle"><a href="#navigation">MENU<span><?php _e('Navigation', 'woothemes'); ?></span></a></h3>
+		<h3 class="nav-toggle"><a href="#navigation">MENU<span><?php _e('Navigation', 'woothemes'); ?></span></a></h3>
 		      	
 		</hgroup>
         
