@@ -37,7 +37,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-.widget aside h3 {
+.widget aside h3, .widget aside {
 	color: black;
 }
 
@@ -545,6 +545,10 @@ h3.nav-toggle {
 #footer #credit span {
   display: none;
 }
+#footer-widgets a {
+color: white;
+}
+
 #footer-widgets {
   border-top: 1px solid #e8e4e3;
   padding: 3.631em 0;
@@ -874,6 +878,7 @@ h3.nav-toggle {
 /* 4.1 Generic Widgets */
 .widget {
   margin-bottom: 2.618em;
+  color: white;
 }
 .widget h3 {
   color: white;

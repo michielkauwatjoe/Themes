@@ -57,7 +57,7 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 		<div id="logo">
 		<a href="/"><img src="http://www.gomiyama.com/wp-content/uploads/logo.png"/></a>
 		</div>
-		<nav class="" role="navigation">
+		<nav class="cart" role="navigation">
 			<?php if ( function_exists( 'has_nav_menu' ) && has_nav_menu( 'top-menu' ) ) { ?>
 			<?php wp_nav_menu( array( 'depth' => 6, 'sort_column' => 'menu_order', 'container' => 'ul', 'menu_id' => 'top-nav', 'menu_class' => 'nav fl', 'theme_location' => 'top-menu' ) ); ?>
 			<?php } ?>
