@@ -1889,6 +1889,7 @@ table.variations tr:last-child th {
 }
 .images .thumbnails {
   margin-top: 1em;
+  float: right;
 }
 .images .thumbnails:after {
   content: "\0020";
@@ -2257,7 +2258,6 @@ ul.order_details li strong {
   display: block;
   text-transform: none;
   font-size: 1.387em;
-  color: #eee;
 }
 ul.order_details li:last-child {
   border-right: 0;

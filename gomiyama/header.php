@@ -31,20 +31,6 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 	woo_head();
 ?>
 
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-39485584-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
 </head>
 
 <body <?php body_class(); ?>>
@@ -55,7 +41,7 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 	
 	<div id="top">
 		<div id="logo">
-		<a href="/"><img src="http://www.gomiyama.com/wp-content/uploads/logo.png"/></a>
+		<a href="/"><img src="http://bucket.gomiyama.com.s3.amazonaws.com/wp-content/uploads/logo.png"/></a>
 		</div>
 		<nav class="cart" role="navigation">
 			<?php if ( function_exists( 'has_nav_menu' ) && has_nav_menu( 'top-menu' ) ) { ?>
