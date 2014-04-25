@@ -1900,8 +1900,8 @@ table.variations tr:last-child th {
 }
 .images .thumbnails a {
   display: block;
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 240px;
+  max-height: 340px;
   text-align: center;
   -webkit-box-sizing: border-box;
   /* Safari/Chrome, other WebKit */
@@ -1922,8 +1922,6 @@ box-shadow: 3px 3px 8px #777777;
   border-radius: 5px;
   display: block;
   margin: 0 auto;
-  opacity: 0.5;
-  filter: alpha(opacity=@opacity * 100);
 }
 .images .thumbnails a:hover img {
   opacity: 1;
