@@ -120,7 +120,7 @@ html {
 	background:url("http://data.michielkauwatjoe.com.s3.amazonaws.com/2013-02%20-%20I%26I/I%26I-background.jpg") top center repeat; background-attachment: fixed;
 }
 	body {
-		font: 14px/22px "Bariol Thin", Arial, Helvetica, sans-serif;
+		font: 16px/22px "Bariol Regular", Arial, Helvetica, sans-serif;
 		color: #263200;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
@@ -130,11 +130,11 @@ html {
 /* #Typography
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
-		font-family: "Rockwell Light", Arial, Helvetica, sans-serif;
+		font-family: "Bariol Light", Arial, Helvetica, sans-serif;
 		color: #000;
 		font-weight: normal; 
 		}
-	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-family: "Rockwell Light"; font-weight: normal; color:inherit }
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-family: "Bariol Light"; font-weight: normal; color:inherit }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px; letter-spacing:-0.04em; }
 	h1.biggest { font-size: 48px; line-height:44px; margin:15px 0 15px 0; font-weight:lighter; letter-spacing:-0.02em; }
 	h2 { font-size: 30px; line-height: 35px; margin:15px 0 15px 0; }
@@ -1493,7 +1493,6 @@ html {
 		display:inline-block;
 	}
 	div.project-item div.thumb_large p { 
-		font-size:12px
 	}
 	div.project-item div.thumb_large.thumbwithbg {
 		background-color:#fff;
