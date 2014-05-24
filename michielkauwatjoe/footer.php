@@ -68,7 +68,7 @@
     </div>
     
     <a href="#" class="backtotop"></a>
-	<div class="ajaxloader"><img src="<?php echo get_template_directory_uri();?>/images/loader.gif" /></div>
+	<div class="ajaxloader"><img src="<?php echo get_template_directory_uri();?>/images/loader.gif" alt="loader"/></div>
 <?php 
 // ADD ANALYTICS CODE
 echo of_get_option('md_footer_googleanalytics');

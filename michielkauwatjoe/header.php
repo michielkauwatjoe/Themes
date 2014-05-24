@@ -143,7 +143,6 @@
             </div>
             <br class="clear" />
             <div class="six columns alpha">
-				<h6 class="subtext"><?php echo $md_head_subtext; ?></h6>
             </div>
             <?php if(!isset($menushowed)) { ?>
             <div class="ten columns omega header-right">
