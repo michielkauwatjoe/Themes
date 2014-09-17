@@ -117,11 +117,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 ================================================== */
 
 html {
-	background:url("http://data.michielkauwatjoe.com.s3.amazonaws.com/2013-02%20-%20I%26I/I%26I-background.jpg") top center repeat; background-attachment: fixed;
+	background: black;
 }
 	body {
 		font: 16px/22px "Bariol Regular", Arial, Helvetica, sans-serif;
-		color: #263200;
+		color: white;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
  }
@@ -131,7 +131,7 @@ html {
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
 		font-family: "Bariol Light", Arial, Helvetica, sans-serif;
-		color: #000;
+		color: white;
 		font-weight: normal; 
 		}
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-family: "Bariol Light"; font-weight: normal; color:inherit }
@@ -409,14 +409,14 @@ html {
 /* #Base 960 Grid
 ================================================== */
 
-    .container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
+    .container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0}
     .container .column,
     .container .columns                         { float: left; display: inline; margin-left: 10px;
 						margin-right: 10px; }
-    .row                                        { margin-bottom: 20px;
-						background-image:url('http://data.michielkauwatjoe.com.s3.amazonaws.com/transparent.png');
-						border-radius: 0 0 5px 5px;}
+    .row                                        { margin-bottom: 20px;}
     #post-list					{ background: none }
+    #post-list p				{color: white; }
+    #singlecontent p				{color:black;}
 
     /* Nested Column Classes */
     .column.alpha, .columns.alpha               { margin-left: 0; }
@@ -1414,7 +1414,6 @@ html {
 		margin-top:30px!important;
 	}
 	.text-shadow { 
-		text-shadow:0 1px 0 #444
 	} 
     .wp-caption, blockquote, .widget li, .widget, .navigation-bottom a, table#wp-calendar, .border-color,.widget_tag_cloud div a { 
 	border-color:#black!important; 
@@ -1488,7 +1487,7 @@ html {
 		opacity: 0;
 	}
 	div.project-item div.thumb_large { 
-		color:#263200; 
+		color: black; 
 		margin-bottom:30px;
 		display:inline-block;
 	}
@@ -1575,9 +1574,6 @@ html {
 	ul.main-nav .current_page_item a, ul.main-nav .current_menu_item a, ul.main-nav li:hover a { 
 		font-family: "Bariol Thin";
 		font-size: 32px;
-		border-bottom:3px solid; 
-		border-color:#ff00a8;
-		box-shadow: 0 1px 0 #333;
 		color: #ff00a8;
 	}
 /* 
@@ -2006,7 +2002,7 @@ html {
 	}
 	.navibg h3 { 
 		margin:18px 0 18px 30px; 
-		color:#263200;
+		color: white;
 	}
 	.navibg.withall h3 { 
 		margin:18px 0 18px 0px; 
@@ -2266,7 +2262,7 @@ html {
 		color:#ad2d47;
 	}
 	a { color:#263200; }
-	a:hover, a:focus { color:#000 }
+	a:hover, a:focus { color: white }
 	
 	
 	/* #Page Styles
