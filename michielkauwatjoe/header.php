@@ -106,7 +106,7 @@
             <a href="#" class="button navbarbutton pull-right"><i class="menu-icon"></i></a>
 				<?php 
                  if(of_get_option('md_header_logo')) { 
-                    echo '<a href="'.home_url().'" title="'.get_bloginfo( 'name' ).'"><img src="'.of_get_option('md_header_logo').'" class="" alt="'.get_bloginfo( 'name' ).'"></a>';
+                    echo '<img src="'.of_get_option('md_header_logo').'" class="" >';
                  }elseif(of_get_option('md_header_logo_text')) {
                     echo '<a href="'.home_url().'" class="main-logo" title="drone">'.of_get_option('md_header_logo_text').'</a>';	
                  }else{

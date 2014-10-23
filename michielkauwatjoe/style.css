@@ -64,7 +64,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block; }
 	body {
-		line-height: 1.7em; }
+		line-height: 1.7em;
+		background: url('http://data.michielkauwatjoe.com.s3.amazonaws.com/karton.jpg');
+	}
 	ol, ul {
 		list-style: none; }
 	blockquote, q {
