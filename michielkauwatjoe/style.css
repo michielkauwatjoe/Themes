@@ -117,11 +117,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 ================================================== */
 
 html {
-	background: black;
+	background: white;
 }
 	body {
 		font: 16px/22px "Bariol Regular", Arial, Helvetica, sans-serif;
-		color: white;
+		color: black;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
  }
@@ -131,7 +131,7 @@ html {
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
 		font-family: "Bariol Light", Arial, Helvetica, sans-serif;
-		color: white;
+		color: black;
 		font-weight: normal; 
 		}
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-family: "Bariol Light"; font-weight: normal; color:inherit }
@@ -415,7 +415,7 @@ html {
 						margin-right: 10px; }
     .row                                        { margin-bottom: 20px;}
     #post-list					{ background: none }
-    #post-list p				{color: white; }
+    #post-list p				{color: black; }
     #singlecontent p				{color:black;}
 
     /* Nested Column Classes */
@@ -2002,7 +2002,7 @@ html {
 	}
 	.navibg h3 { 
 		margin:18px 0 18px 30px; 
-		color: white;
+		color: black;
 	}
 	.navibg.withall h3 { 
 		margin:18px 0 18px 0px; 
@@ -2229,7 +2229,7 @@ html {
 		margin: -24px 0px 20px;
 		padding: 7px 5px 4px 5px;
 		background-color: #DD0303;
-		color: white;
+		color: black;
 		width:250px;	
 		-webkit-border-bottom-right-radius: 5px;
 		-webkit-border-bottom-left-radius: 5px;
