@@ -100,8 +100,9 @@
 </head>
  
  <body <?php body_class(); ?>>
+	<img src="http://data.michielkauwatjoe.com.s3.amazonaws.com/header.jpg" class="header_image"/>
 	<div class="container">
-		<div class="sixteen columns topmargin">
+		<div class="sixteen columns">
             <div class="six columns alpha">
             <a href="#" class="button navbarbutton pull-right"><i class="menu-icon"></i></a>
 				<?php 
@@ -121,9 +122,10 @@
 				$md_head_subtext = of_get_option('md_header_logo_subtext');
 				if(!$md_head_search) : ?>
                 <form action="<?php echo get_site_url()?>">
-            		<input type="text" name="s" class="medium" value=""><button type="submit"><i class='icon-search'></i></button>
+		<input type="text" name="s" class="medium" value=""><button type="submit"><i class='icon-search'></i></button>
                 </form>
                 <?php endif; ?>
+
                 
 				<?php 
 					if($md_head_search) { 
